@@ -6,10 +6,17 @@ TechCare Solutions receives 200+ IT support requests weekly via email and phone.
 ##Business Problem: The business is missing SLAs, with duplicated work, leading to frustrated IT support. Also, there is no centralised system with which to properly manage data.
 
 ##Questions asked:
- Who are the users and stakeholders?(end users, IT support, project owners), is this an internal solution? Is there a way to track the IT tickets submitted,is there a queue? 
+ Who are the users and stakeholders?(IT Managere, end users, IT support, HR, project owners, Business Analyst), is this an internal solution? Is there a way to track the IT tickets submitted,is there a queue? 
 
  
-## Business goal: their goal is to achieve positive SLA fulfilment and blocking loopholes leading to duplicate tasks using a centralised  system to properly track requests from initializing to completion.
+## Business goal/ objective: the project solution will be successful if the following goals are met:
+•	If it Provides a single, centralised platform for logging and managing all IT support requests.
+•	If it eliminates duplicated effort by making ticket ownership and status visible to all agents in real time.
+•	If it enables SLA tracking and automated escalation when response or resolution targets are at risk of being missed.
+•	Gives requesters visibility into the status of their own tickets without needing to call or email for updates.
+•	Gives IT managers reporting and dashboards to monitor team performance, workload, and recurring issues.
+•	Reduces average ticket resolution time by at least 30% within the first three months of completion.
+
 
 Project Structure >
 
