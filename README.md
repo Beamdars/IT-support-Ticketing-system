@@ -11,4 +11,8 @@ TechCare Solutions receives 200+ IT support requests weekly via email and phone.
  
 ## Business goal: their goal is to achieve positive SLA fulfilment and blocking loopholes leading to duplicate tasks using a centralised  system to properly track requests from initializing to completion.
 
-Project Structure
+Project Structure >
+
+# Business Requirement and Acceptance Criteria
+# Entity Relationship Diagram
+# Power Platform component
