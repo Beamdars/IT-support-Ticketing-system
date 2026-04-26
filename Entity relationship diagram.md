@@ -28,3 +28,5 @@
 
 #Notification Log Table
 
+<img width="3508" height="4963" alt="techcare_erd_full" src="https://github.com/user-attachments/assets/18d9a122-1f59-4a07-b7cf-cb955434cd33" />
+
