@@ -30,35 +30,58 @@ The system must retain a full audit history for every ticket, including all upda
 # Acceptance Criteria: 
 the system should meet some criteria, as highlighted in the business requirement before it is moved to production. Each criterion will be validated through User Acceptance Testing (UAT) conducted with representatives from IT and other departments/users
 
+
 ## Ticket management/logging
-ID	  Acceptance Criterion	                                                                                            How It Will Be Measured
-AC-01	A staff member can submit a ticket via the self-service portal in under 3 minutes with no training.	          Timed UAT test with 5 first-time users. All must complete submission successfully.
-AC-02	A unique ticket reference number is generated and emailed to the requester within 60 seconds of submission.	  Submit 10 test tickets and verify reference and email receipt time.
-AC-03	All mandatory ticket fields (category, description, priority, contact details) are enforced.                	Attempt to submit incomplete tickets; system must block and show clear error messages.
-AC-04	An IT agent can view, claim, update, reassign, and close any ticket from the agent dashboard.	                 Agent UAT walk-through covering all five actions on live test tickets.
-AC-05	Two agents cannot be simultaneously assigned to the same ticket.	                                             Attempt to assign a ticket already owned by another agent; system must prevent it.
+ID	  Acceptance Criterion	                                                                                            
+AC-01	A staff member can submit a ticket via the self-service portal in under 3 minutes with no training.	          
+AC-02	A unique ticket reference number is generated and emailed to the requester within 60 seconds of submission.	  
+AC-03	All mandatory ticket fields (category, description, priority, contact details) are enforced.                	
+AC-04	An IT agent can view, claim, update, reassign, and close any ticket from the agent dashboard.	                 
+AC-05	Two agents cannot be simultaneously assigned to the same ticket.	                                             
+
+How It Will Be Measured
+Timed UAT test with 5 first-time users. All must complete submission successfully.
+Submit 10 test tickets and verify reference and email receipt time.
+Attempt to submit incomplete tickets; system must block and show clear error messages.
+Agent UAT walk-through covering all five actions on live test tickets.
+Attempt to assign a ticket already owned by another agent; system must prevent it.
 
 
 ## SLA escalation
-ID	Acceptance Criterion	                                                                                        How It Will Be Measured
-AC-06	SLA timers begin automatically the moment a ticket is submitted and are visible on the agent dashboard.	   Submit test tickets and verify SLA countdown displays correctly by priority level.
-AC-07	An alert is sent to the assigned agent when a ticket reaches 75% of its SLA time without resolution.	     Create test tickets with short SLA windows and confirm alerts set-off at the correct threshold.
-AC-08	An escalation notification is sent to the IT Manager when any ticket breaches its SLA.	                   Allow a test ticket to breach SLA and confirm IT Manager receives notification within 5 minutes.
-AC-09	Unassigned tickets automatically escalate to the IT Manager after the configured inactivity threshold.	   Leave a test ticket unassigned for the defined period and confirm escalation triggers.
+ID	Acceptance Criterion	                                                                                       
+AC-06	SLA timers begin automatically the moment a ticket is submitted and are visible on the agent dashboard.	   
+AC-07	An alert is sent to the assigned agent when a ticket reaches 75% of its SLA time without resolution.	     
+AC-08	An escalation notification is sent to the IT Manager when any ticket breaches its SLA.	                  
+AC-09	Unassigned tickets automatically escalate to the IT Manager after the configured inactivity threshold.	   
+
+How  It Will Be Measured
+Submit test tickets and verify SLA countdown displays correctly by priority level.
+Create test tickets with short SLA windows and confirm alerts set-off at the correct threshold.
+Allow a test ticket to breach SLA and confirm IT Manager receives notification within 5 minutes
+Leave a test ticket unassigned for the defined period and confirm escalation triggers.
+
 
 ## Communication
-ID	Acceptance Criterion	                                                                                                   How It Will Be Measured
-AC-10	Requesters receive automated notifications at all four key milestones: submitted, assigned, updated, and resolved.	  Trace a test ticket through all stages and confirm all four notifications are received.
-AC-11	A requester can log into the portal and view the current status of all their tickets without contacting IT.	          UAT test: requester logs in and locates their open ticket without assistance.
-AC-12	Agents receive an in-system and email notification within 2 minutes of being assigned a new ticket.	                  Assign test tickets to agents and measure notification delivery time.
+ID	Acceptance Criterion	                                                                                                   
+AC-10	Requesters receive automated notifications at all four key milestones: submitted, assigned, updated, and resolved.	  
+AC-11	A requester can log into the portal and view the current status of all their tickets without contacting IT.	          
+AC-12	Agents receive an in-system and email notification within 2 minutes of being assigned a new ticket.	                  
+
+How It Will Be Measured
+Trace a test ticket through all stages and confirm all four notifications are received.
+UAT test: requester logs in and locates their open ticket without assistance.
+Assign test tickets to agents and measure notification delivery time.
+
 
 ## Data Reporting
-ID	Acceptance Criterion	                                                                                                              How It Will Be Measured
-AC-13	The manager dashboard displays ticket volumes by status, SLA compliance rate, average resolution time, and workload by agent.	   IT Manager UAT: confirm all five data points are visible and accurate against test data.
-AC-14	Reports can be exported in both Excel and PDF format.	                                                                           Export a sample report in both formats and confirm completeness and formatting.
-AC-15	A complete audit trail is maintained for every ticket, showing all updates, status changes, and agent actions with timestamps.	 Inspect the audit log of a test ticket after performing multiple actions; confirm all are recorded.
+ID	Acceptance Criterion	                                                                                                              
 
+AC-13	The manager dashboard displays ticket volumes by status, SLA compliance rate, average resolution time, and workload by agent.	   
+AC-14	Reports can be exported in both Excel and PDF format.	                                                                           
+AC-15	A complete audit trail is maintained for every ticket, showing all updates, status changes, and agent actions with timestamps.	 
 
-
-
+How It Will Be Measured
+IT Manager UAT: confirm all five data points are visible and accurate against test data.
+Export a sample report in both formats and confirm completeness and formatting.
+Inspect the audit log of a test ticket after performing multiple actions; confirm all are recorded.
 
