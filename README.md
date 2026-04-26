@@ -23,3 +23,5 @@ Project Structure >
 # Business Requirement and Acceptance Criteria
 # Entity Relationship Diagram
 # Power Platform component
+
+![Project Screenshot](images/screenshot.png)
