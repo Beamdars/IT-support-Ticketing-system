@@ -5,20 +5,26 @@
 ##Entities
 
 
-#IT Ticket Table
-Columns: ID · Title · Category · Priority. Status 
+#IT Ticket Table: 1:M relationship with Ticket Activity, 1:M relationship with notification log.
+
+#Columns: ID · Title · Category · Priority. Status 
 
 
 
-#Request Table
-Columns: Name · Email · Department. Phone · Manager
+#Requester Table: 1:M relationship with IT ticket
+
+#Columns: Name · Email · Department. Phone · Manager
 
 
+#IT Agent/Support Table: 1:M relationship with IT Ticket Activity, 1:M relationship with knowledge base
+#Colums: Name · Email · Team. Manager. Workload · Availability
 
-#The Request table(employee/user) will have a 1 to many relationship with the IT ticket table, likewise the IT support table with the IT ticket  table.
+#SLA configuration Table: 1:M relationship with IT Ticket
+#Columns:Priority levels
 
+#Knowledge Base Table: 1:M relationship with IT Ticket
 
+#Ticket activity table
 
-#IT Agent/Support Table
-Colums;Name · Email · Team. Manager. Workload · Availability
+#Notification Log Table
 
