@@ -15,7 +15,7 @@ Columns: Name · Email · Department. Phone · Manager
 
 
 
-##The Request table(employee/user) will have a 1 to many relationship with the IT ticket table, likewise the IT support table with the IT ticket  table.
+#The Request table(employee/user) will have a 1 to many relationship with the IT ticket table, likewise the IT support table with the IT ticket  table.
 
 
 
