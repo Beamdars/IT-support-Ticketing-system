@@ -26,4 +26,4 @@ Project Structure >
 # Entity Relationship Diagram
 # Power Platform component
 
-![Project Screenshot](images/screenshot.png)
+
