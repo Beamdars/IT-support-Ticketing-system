@@ -5,10 +5,10 @@ TechCare Solutions receives 200+ IT support requests weekly via email and phone.
 
 #Business Problem: The business is missing SLAs, with duplicated work, leading to frustrated IT support. Also, there is no centralised system with which to properly manage data.
 
-#Request clarification on the end-to-end.
+#Request clarification on the end-to-end process in the company.
 
 #Questions asked:
- Who are the users and stakeholders?(IT Managere, end users, IT support, HR, project owners, Business Analyst), is this an internal solution? Is there a way to track the IT tickets submitted,is there a queue? 
+ Who are the users and stakeholders? (IT Managers, end users, IT support, HR, project owners, Business Analyst), is this an internal solution? Is there a way to track the IT tickets submitted,is there a queue? 
 
  
 # Business goal/objective: the project solution will be successful if the following goals are met:
